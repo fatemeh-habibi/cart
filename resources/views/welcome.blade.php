@@ -64,7 +64,9 @@
                         <li>docker-compose exec laravel php artisan swagger:ge</li>
                         <li> Document: <a target="_blank" href={{env('DATABASE_URL')}}"/api/documentation"> api/documentation </a> </li>
                     </ol>
-                    </div>
+                    Git: <a target="_blank" href="https://github.com/fatemeh-habibi/cart.git"> Git </a>
+
+                </div>
             </div>
         </div>
     </body>
