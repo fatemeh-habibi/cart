@@ -18,7 +18,6 @@ class Customer extends Authenticatable
     protected $table = 'customers';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates   = [];
 
     public function scopeLoadRelations($query)
     {

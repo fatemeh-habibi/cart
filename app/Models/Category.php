@@ -11,7 +11,6 @@ class Category extends BaseModel
     protected $table = 'categories';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = [];
 
     public function langs()
     {

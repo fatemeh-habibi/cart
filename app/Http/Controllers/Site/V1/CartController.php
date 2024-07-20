@@ -317,10 +317,6 @@ class CartController extends Controller
             $query->where('customer_id', $this->customer_id);
         }])->groupBy('product_id')->count();
 
-        // $total_cart = CartProduct::with(['cart' => function($query) {
-        //     $query->where('customer_id', $this->customer_id);
-        // }])->groupBy('product_id')->select(DB::raw('sum(quantity) as totalquantity'))->first();
-
         return $this->apiResponse(
             [
                 'success' => true,

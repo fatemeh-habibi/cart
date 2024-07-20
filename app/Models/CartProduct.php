@@ -6,7 +6,6 @@ class CartProduct extends BaseModel
 {
     protected $table = 'cart_products';
     protected $guarded = ['id'];
-    protected $dates   = [];
 
     public function cart()
     {

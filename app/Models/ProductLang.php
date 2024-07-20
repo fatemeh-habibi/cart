@@ -7,7 +7,7 @@ class ProductLang extends BaseModel
     protected $table = 'products_lang';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = [];
+
     public $timestamps = false;
 
     public function product()

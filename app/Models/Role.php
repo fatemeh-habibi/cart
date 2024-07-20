@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Role extends BaseModel
 {
     use SoftDeletes;
-    protected $dates = [];
 
     protected $guarded = ['id'];
 

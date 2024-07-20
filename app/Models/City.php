@@ -11,7 +11,6 @@ class City extends BaseModel
     protected $table = 'province_cities';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = [];
 
     public function province()
     {

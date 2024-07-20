@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Permission extends BaseModel
 {
     use SoftDeletes;
-    protected $dates = [];
     
     public function roles() {
         return $this->belongsToMany(Role::class,'roles_permissions');

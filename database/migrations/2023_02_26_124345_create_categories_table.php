@@ -29,8 +29,6 @@ return new class extends Migration
             $table->unsignedSmallInteger('created_user_id')->nullable()->comment('User id for created');
             $table->unsignedSmallInteger('updated_user_id')->nullable()->comment('User id for updated');
             $table->index('parent_id');
-            $table->index(DB::raw('sort_order'),'sort_order')->algorithm('btree');
-            $table->index(DB::raw('activated'),'activated')->algorithm('btree');
             $table->timestamps();
             $table->softDeletes()->comment('Date of soft delete setting');
         });

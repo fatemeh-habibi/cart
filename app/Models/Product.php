@@ -11,7 +11,6 @@ class Product extends BaseModel
     protected $table = 'products';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = [];
 
     public function langs()
     {

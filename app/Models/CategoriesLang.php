@@ -7,7 +7,7 @@ class CategoriesLang extends BaseModel
     protected $table = 'categories_lang';
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = [];
+
     public $timestamps = false;
 
     public function category()

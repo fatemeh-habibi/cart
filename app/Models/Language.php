@@ -10,7 +10,6 @@ class Language extends BaseModel
 
     protected $guarded = ['id'];
     protected $appends = [];
-    protected $dates = ['deleted_at'];
 
     public function scopeLoadRelations($query)
     {
